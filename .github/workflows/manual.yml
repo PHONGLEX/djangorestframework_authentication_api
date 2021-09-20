@@ -54,4 +54,4 @@ jobs:
         run: |
           docker build -t djangorestframework_auth .
           docker tag djangorestframework_auth:latest $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY
